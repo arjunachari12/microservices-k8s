@@ -4,8 +4,8 @@ metadata:
   name: helloworld-service1
 spec:
   ports:
-  - port: 31001
-    nodePort: 31002
+  - port: 31003
+    nodePort: 31004
     targetPort: nodejs-port
     protocol: TCP
   selector:
